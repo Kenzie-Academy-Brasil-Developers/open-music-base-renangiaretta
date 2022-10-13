@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/home/index.css">
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/cards.css">
+    <link rel="stylesheet" href="styles/dark.css">
+    <link rel="stylesheet" href="styles/display.css">
+    <link rel="stylesheet" href="styles/sizing.css">
+    <link rel="stylesheet" href="styles/spacing.css">
+    <link rel="stylesheet" href="styles/texts.css">
+    <title>Open Music</title>
+  </head>
+
+  <body class="body">
+    <main id="main" class="main container flex_column gap-4">
+      <section id="idHeader" class="header flex_row justify_between">
+        <h1 class="header_title title-h1">Open music</h1>
+      </section>
+      <section id="idFilters" class="filters flex_column gap-2">
+        <h2 class="filters_title section_titles">Gênero musical</h2>
+        <div id="btnDiv" class="filters_div flex_row flex_wrap gap-3">
+        </div>
+      </section>
+      <section id="priceRange" class="price_range flex_column gap-2">
+        <div id="rangeContainer" class="price_range_div flex_row justify_between">
+          <h2 class="price_range_title section_titles">Definir preço</h2>
+        </div>
+      </section>
+      <section class="showcase flex_column gap-4 full">
+        <h2 class="showcase_title section_titles">Albuns Encontrados</h2>
+        <ul id="ulDiscs" class="showcase_ul full flex_row flex_wrap gap-2">
+          <div>
+            <p class="section_titles">
+              Filtre para encontrar um disco de sua preferência!
+            </p>
+          </div>
+        </ul>
+      </section>
+
+    </main>
+<script src="scripts/theme.js"></script>
+<script src="pages/home/productsData.js"></script>
+<script src="pages/home/index.js"></script>
+  </body>
+</html>

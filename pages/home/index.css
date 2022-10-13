@@ -1,1 +1,19 @@
 /* Desenvolva sua estilização aqui ... */
+
+.header{
+    margin-top: 77px;
+    height: 31px;
+}
+
+.header_btn{
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-grey-8);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.showcase_ul{
+    padding: 16px, 20px;
+}
